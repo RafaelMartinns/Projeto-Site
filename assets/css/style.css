@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1920px;
+    height: 862px;
+}
+
+img {
+    width: 1920px;
+    height: 862px;
+
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 135px;
+}
+
+.logo {
+    width: 130px;
+    height: 135px;
+    left: 60px;
+    top: 0;
+    position: absolute;
+}
+
+.menu-item {
+    height: 28px;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+}
+
+.logo {
+    width: 130px;
+    height: 135px;
+    left: 60px;
+    top: 0;
+    position: absolute;
+}
+
+.menu-item {
+    top: 39px;
+    height: 28px;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 600;
+    word-wrap: break-word;
+    right: 118px;
+}
+
+
+.menu-item:nth-child(2) {
+    top: 39px;
+    right: 592px;
+}
+
+.menu-item:nth-child(3) {
+    top: 39px;
+    right: 454px;
+
+}
+
+.menu-item:nth-child(4) {
+    top: 39px;
+    right: 278px;
+
+}
+
+.content {
+    position: absolute;
+    top: 502px;
+    left: 1189px;
+}
+
+.content-text {
+    color: white;
+    font-size: 55px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* ------------------------------------------------------------ */
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container2 img {
+    width: 1920px;
+    height: 862px;
+    margin-top: 0;
+}
+
+.content2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+}
+
+.text2 {
+    color: white;
+    font-size: 80px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+}
